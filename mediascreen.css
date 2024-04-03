@@ -1,9 +1,9 @@
-*{
-  margin: 0;
-  padding: 0;
-}
 @media screen and (min-width: 100px) and (max-width: 900px) {
-  nav{
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav {
     top: 0%;
     padding-top: 2%;
     height: 20vh;
@@ -12,12 +12,12 @@
   #admission {
     font-size: 20px;
   }
-  nav ul{
+  nav ul {
     /* background-color: red; */
     height: 10vh;
     overflow: scroll;
   }
-  #phone-number{
+  #phone-number {
     padding: 8px 10px;
     font-weight: 600;
     font-size: 1rem;
@@ -110,11 +110,11 @@
   .my-card {
     margin-top: 2vh;
     border-top-left-radius: 2%;
-   border-top-right-radius: 2%;
+    border-top-right-radius: 2%;
   }
   .my-card img {
-   border-top-left-radius: 2%;
-   border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
   }
   .my-card h5 {
     font-weight: 600;
@@ -186,19 +186,19 @@
     margin-top: 0vh;
     color: orange;
   }
-  .admissionimage{
+  .admissionimage {
     background-repeat: repeat;
   }
-  .Admissiondiv{
+  .Admissiondiv {
     width: 90vw;
     height: 70vh;
     margin-left: 5%;
   }
-  .college{
+  .college {
     min-width: 70vw;
     height: 90vh;
   }
-  .college h3{
+  .college h3 {
     text-align: center;
     margin-left: 0%;
   }
@@ -218,7 +218,7 @@
     border-top-right-radius: 4%;
     overflow: hidden;
   }
-  .course-span{
+  .course-span {
     display: block;
     width: 90%;
     margin-top: 2vh;
