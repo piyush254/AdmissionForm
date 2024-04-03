@@ -95,7 +95,7 @@ nav ul li:hover {
   /* background-color: blue; */
 }
 .yourheading button {
-  width: 20vw;
+  min-width: 150px;
 }
 .yourimage {
   display: inline-block;
