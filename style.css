@@ -1,0 +1,564 @@
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  -webkit-scrollbar-width: none; /* Hide scrollbar for Chrome */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.9em !important;
+}
+.nav-image-logo {
+  height: 30px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: space-around;
+  position: sticky;
+  background-color: transparent;
+  top: 0px;
+  background-color: #e1dfdf;
+  z-index: 999999;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 1vw;
+  font-size: 20px;
+  color: navy;
+}
+nav ul li:hover {
+  color: orange;
+  cursor: pointer;
+}
+.nav-li-right {
+  float: right;
+  font-weight: 600;
+  /* background-color: blue; */
+  justify-content: flex-end;
+}
+.img-admission {
+  /* background-color: orange; */
+  height: fit-content;
+  color: navy;
+  font-weight: 900;
+  font-size: 1.6em;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+#admission {
+  font-size: 42px;
+}
+#phone-number {
+  background-color: orange;
+  height: fit-content;
+  color: white;
+  padding: 8px 30px;
+  font-weight: 900;
+  font-size: 1.6em;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+#phone-number:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+/* .nav-bgcblur {
+  height: 110vh;
+  width: 100vw;
+  position: fixed;
+  background-image: url(https://images.pexels.com/photos/2079451/pexels-photo-2079451.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: contain;
+  opacity: 0.5;
+  z-index: -1;
+  transform: rotate(6deg) scale(1.2);
+  transition: 0.5s;
+} */
+
+.parents {
+  display: flex;
+  flex-wrap: wrap;
+}
+.yourheading {
+  display: inline-block;
+  height: 100vh;
+  width: 50vw;
+  /* background-color: blue; */
+}
+.yourheading button {
+  width: 20vw;
+}
+.yourimage {
+  display: inline-block;
+  height: 100vh;
+  width: 50vw;
+  /* background-color: orange; */
+  background-size: cover;
+  overflow: hidden;
+}
+.yourimage h1 {
+  margin-top: 10vh;
+  text-align: center;
+}
+.aos-init {
+  margin-top: 10vh;
+  font-size: 50px;
+  color: blue;
+}
+#para {
+  margin-top: 10vh;
+  font-size: 30px;
+}
+.admissionimage {
+  height: 80vh;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.number,
+.Apply-now,
+.arrow {
+  position: fixed;
+  background-color: orange;
+  height: 8vh;
+  width: 11%;
+  z-index: 1;
+}
+.number {
+  border-top-left-radius: 20%;
+  top: 50%;
+  right: 0%;
+  background-color: red;
+  height: fit-content;
+  color: white;
+  padding: 12px 10px;
+  font-weight: 900;
+  font-size: 1em;
+  border-radius: 8px 0px 0px 0px;
+  font-weight: bolder;
+}
+.Apply-now {
+  top: 60%;
+  right: 0%;
+  width: 8%;
+  background-color: orange;
+  height: fit-content;
+  color: white;
+  padding: 12px 10px;
+  font-weight: 900;
+  font-size: 1em;
+  border-radius: 0px 0px 0px 10px;
+  font-weight: bolder;
+}
+.arrow {
+  width: 3.5%;
+  height: 7.5%;
+  bottom: 2%;
+  right: 2%;
+  border-radius: 20%;
+  height: fit-content;
+  color: white;
+  font-weight: 900;
+  font-size: 1em;
+  box-sizing: border-box;
+  padding-left: 1%;
+  padding-top: 0.25%;
+  padding-bottom: 0.25%;
+}
+.section-header-h2 {
+  color: #ffac1d;
+  font-size: 20px;
+}
+.section-header p {
+  font-size: 30px;
+  color: #012970;
+}
+.section-header h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.maincard {
+  /* background-color: #808080; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* height: 70vh; */
+}
+.my-card {
+  position: relative;
+  height: 60vh;
+  width: 19rem;
+  z-index: -1;
+}
+.my-card img {
+  height: 30vh;
+}
+.my-card h5 {
+  font-weight: 600;
+  width: 90%;
+  font-size: 30px;
+  /* background-color: red; */
+  text-align: center;
+  position: absolute;
+  bottom: 14vh;
+  color: #012970;
+}
+.my-card p {
+  position: absolute;
+  bottom: 2vh;
+  right: 1vw;
+  left: 1vw;
+  overflow: hidden;
+}
+.imgclass {
+  /* background-color: black; */
+  /* height: 60%; */
+  margin-top: 2vh;
+  /* border: 5px solid black; */
+}
+.admissionForm {
+  height: 80vh;
+  width: 100vw;
+  margin-top: 10vh;
+  /* background-color: gray; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: -2;
+}
+.formsideimage {
+  margin-left: 2.25%;
+  position: relative;
+  display: inline-block;
+  height: 70vh;
+  width: 48vw;
+  background-image: url(https://images.pexels.com/photos/3808181/pexels-photo-3808181.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.formsideimage h3 {
+  color: red;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-weight: 700;
+}
+.forminput {
+  position: relative;
+  display: inline-block;
+  height: 70vh;
+  width: 48vw;
+  background-color: #012970;
+  z-index: -1 !important;
+}
+.forminput input {
+  display: block;
+}
+.Form-input-class-user-response {
+  width: 40vw;
+  margin-left: 5vw;
+  height: 7vh;
+  margin-top: 3vh;
+}
+.message-by-user {
+  width: 40vw;
+  margin-left: 5vw;
+  height: 12vh;
+  margin-top: 3vh;
+}
+.devbtn {
+  position: absolute;
+  top: 88%;
+  right: 40%;
+  padding: 2%;
+  color: red !important;
+  font-weight: 700 !important;
+}
+.AboutYourCollege {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  /* background-color: gray; */
+  align-items: center;
+}
+.yourCollegeAbout {
+  height: 70vh;
+  width: 49vw;
+  background-color: #fff;
+  margin-left: 1vw;
+  box-sizing: border-box;
+  padding-left: 2vw;
+}
+.yourCollegePicture {
+  height: 70vh;
+  width: 49vw;
+  background-color: #fff;
+}
+.AboutYourCollege span {
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
+.boldparaofyourcollege {
+  color: #012970;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.yourCollegePicture {
+  background-image: url(https://images.pexels.com/photos/2305098/pexels-photo-2305098.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+  background-size: cover;
+}
+.yourCollegeResult {
+  display: flex;
+  justify-content: space-around;
+}
+.yourCollegeResult span {
+  display: inline-block;
+  background-color: whitesmoke;
+  height: 17vh;
+  width: 17vw;
+  /* border: 2px solid black; */
+  box-sizing: border-box;
+}
+.devsmile {
+  font-size: 40px;
+  display: inline;
+  color: orange;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.yourCollegeResult h2 {
+  display: inline;
+  color: blueviolet;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+.yourCollegeResult h4 {
+  margin-left: 12%;
+}
+.services-msgg {
+  text-align: center;
+  margin-top: 20vh;
+  color: orange;
+}
+.Admissionservices-msgg {
+  text-align: center;
+  font-weight: 600;
+  color: blueviolet;
+  height: auto;
+}
+.Admissionregurding {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+.Admissionregurding h3 {
+  /* background-color: white;
+  color: black; */
+  overflow: hidden;
+}
+.Admissiondiv {
+  height: 60vh;
+  width: 46vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border-radius: 2%;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.box-blue {
+  border-bottom: 2px solid blue;
+}
+.box-orange {
+  border-bottom: 2px solid orange;
+}
+.box-green {
+  border-bottom: 2px solid green;
+}
+.box-red {
+  border-bottom: 2px solid red;
+}
+.box-blue:hover {
+  background-color: blue;
+  color: white;
+}
+.box-orange:hover {
+  background-color: orange;
+  color: white;
+}
+.box-green:hover {
+  background-color: green;
+  color: white;
+}
+.box-red:hover {
+  background-color: red;
+  color: white;
+}
+.box-blue {
+  flex-direction: column;
+}
+.Admissionregurdin-msgg {
+  font-weight: 600;
+  padding-bottom: 2%;
+}
+
+.Admissiondiv p {
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden;
+}
+.Admissionspan{
+  margin-top: 2%;
+}
+.chatNow {
+  color: blueviolet;
+  font-size: 30px;
+  position: absolute;
+  bottom: 5%;
+}
+.colleges {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: burlywood; */
+}
+.college {
+  height: 70vh;
+  min-width: 25vw;
+  margin-left: 1vw;
+  margin-top: 3vh;
+  position: relative;
+  /* border: 2px solid black; */
+  background-color: whitesmoke;
+}
+.College-photo {
+  height: 45vh;
+  /* border: 2px solid black; */
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.college-photo-rapper {
+  height: 45vh;
+  width: auto;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+  overflow: hidden;
+}
+.College-photo:hover {
+  transform: rotate(6deg) scale(1.2);
+  transition: 0.5s;
+  overflow: hidden;
+  z-index: -1;
+}
+.college h3 {
+  margin-left: 20%;
+}
+.college button {
+  margin-left: 30%;
+  position: absolute;
+  bottom: 3%;
+}
+
+@keyframes rotateBackground {
+  from {
+    transform: rotate(0deg); /* Initial rotation */
+  }
+  to {
+    transform: rotate(5deg); /* Final rotation */
+  }
+}
+
+.divOfcourses {
+  /* height: 100vh; */
+  width: 70vw;
+  /* background-color: pink; */
+  margin-top: 10vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1;
+}
+#myCheckbox {
+  display: inline;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+}
+.course-span {
+  position: relative;
+  background-color: rgb(249, 230, 230);
+  height: 15vh;
+  margin-top: 5vh;
+  width: 20vw;
+  margin-bottom: 5vh;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  color: #012970;
+  font-weight: 700;
+}
+.course-span h3 {
+  display: inline;
+  font-weight: 600;
+}
+
+.enquirenow {
+  width: 20%;
+}
+.footup {
+  background-color: skyblue;
+  height: 40vh;
+  width: 100%;
+  margin-top: 2vh;
+  box-sizing: border-box;
+  padding-top: 5vh;
+}
+.footup h2 {
+  font-weight: 600;
+}
+.footup p {
+  color: white;
+}
+.footdown {
+  background-color: #212529;
+  height: 20vh;
+}
+.footdown {
+  box-sizing: border-box;
+  padding-top: 8vh;
+}
+.footdown p {
+  color: white;
+  font-weight: 700;
+}
+nav {
+  position: sticky !important;
+  top: 0%;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  /* Your styles here */
+}

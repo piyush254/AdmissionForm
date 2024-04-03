@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 400px) and (max-width: 900px) {
+  nav{
+    top: 0%;
+    padding-top: 2%;
+    height: 20vh;
+  }
+  #admission {
+    font-size: 20px;
+  }
+  #phone-number{
+    padding: 8px 10px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .img-admission {
+    height: fit-content;
+    color: navy;
+    font-weight: 900;
+    font-size: 1em;
+    border-radius: 8px;
+    /* background-color: orange; */
+    /* margin-top: 5%; */
+    display: flex;
+  }
+  .parents {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .yourheading {
+    display: inline-block;
+    height: 70vh;
+    width: 100vw;
+    /* background-color: blue; */
+  }
+  .yourimage {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: orange; */
+    background-size: cover;
+    overflow: hidden;
+  }
+  .aos-init {
+    margin-top: 10vh;
+    font-size: 25px;
+    color: blue;
+  }
+  #para {
+    margin-top: 10vh;
+    font-size: 15px;
+  }
+  .number {
+    border-top-left-radius: 20%;
+    top: 50%;
+    right: 0%;
+    background-color: red;
+    height: fit-content;
+    color: white;
+    padding: 12px 10px;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 8px 0px 0px 0px;
+    width: 26%;
+  }
+  .Apply-now {
+    top: 65%;
+    width: 20%;
+    padding: 12px 10px;
+    font-weight: 900;
+    font-size: 1em;
+    border-radius: 0px 0px 0px 10px;
+    font-weight: bold;
+  }
+  .arrow {
+    width: 3.5%;
+    height: 3.5%;
+    bottom: 2%;
+    right: 2%;
+    border-radius: 20%;
+    height: fit-content;
+    color: white;
+    font-size: 1em;
+    box-sizing: border-box;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
+    /* padding-bottom: 4.25%; */
+    box-sizing: content-box;
+  }
+  .section-header-h2 {
+    font-size: 15px;
+  }
+  .section-header p {
+    font-size: 20px;
+    color: #012970;
+  }
+  .section-header h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 5%;
+  }
+  .my-card {
+    margin-top: 2vh;
+    border-top-left-radius: 2%;
+   border-top-right-radius: 2%;
+  }
+  .my-card img {
+   border-top-left-radius: 2%;
+   border-top-right-radius: 2%;
+  }
+  .my-card h5 {
+    font-weight: 600;
+    width: 90%;
+    font-size: 20px;
+  }
+  .admissionForm {
+    height: auto;
+    width: 100vw;
+    margin-top: 10vh;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    z-index: -2;
+  }
+  .formsideimage {
+    width: 100vw;
+  }
+  .forminput {
+    position: relative;
+    display: inline-block;
+    height: 80vh;
+    width: 100vw;
+  }
+  .Form-input-class-user-response {
+    width: 90vw;
+  }
+  .message-by-user {
+    width: 90vw;
+    margin-left: 5vw;
+    height: 12vh;
+    margin-top: 3vh;
+  }
+  .yourCollegeAbout {
+    height: 70vh;
+    width: 100vw;
+    margin-bottom: 10%;
+  }
+  .yourCollegePicture {
+    height: 70vh;
+    width: 100vw;
+    margin-bottom: 10%;
+  }
+  .yourCollegeResult {
+    display: block;
+    justify-content: space-around;
+  }
+  .yourCollegeResult span {
+    display: flex;
+    background-color: whitesmoke;
+    height: 17vh;
+    width: 90vw;
+    margin-top: 5%;
+    align-items: center;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .yourCollegeResult h2 {
+    display: inline-block;
+    color: blueviolet;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-bottom: 0%;
+  }
+  .services-msgg {
+    text-align: center;
+    margin-top: 0vh;
+    color: orange;
+  }
+  .admissionimage{
+    background-repeat: repeat;
+  }
+  .Admissiondiv{
+    width: 90vw;
+    height: 70vh;
+    margin-left: 5%;
+  }
+  .college{
+    min-width: 70vw;
+    height: 90vh;
+  }
+  .college h3{
+    text-align: center;
+    margin-left: 0%;
+  }
+  .college button {
+    margin-left: 30%;
+    position: absolute;
+    bottom: 3%;
+    left: 7%;
+  }
+  .College-photo {
+    height: 55vh;
+  }
+  .college-photo-rapper {
+    height: 55vh;
+    width: auto;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    overflow: hidden;
+  }
+  .course-span{
+    display: block;
+    width: 90%;
+    margin-top: 2vh;
+    background-color: whitesmoke;
+  }
+  .enquirenow {
+    width: 40%;
+  }
+  .footdown {
+    background-color: #212529;
+    height: 30vh;
+  }
+}
