@@ -499,7 +499,7 @@ nav ul li:hover {
   justify-content: space-around;
   gap: 1;
 }
-#myCheckbox {
+.myCheckbox {
   display: inline;
   position: absolute;
   left: 5%;
